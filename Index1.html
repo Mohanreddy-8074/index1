@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MOHAN REDDY KASARAPU</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #c2e9fb 0%, #c2e9fb 50%, #a1c4fd 50%, #a1c4fd 100%);
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .section {
+      display: none;
+    }
+
+    .active-section {
+      display: block;
+    }
+
+    .nav-btn {
+      margin: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav-btn:hover {
+      background-color: #28a745 !important;
+      color: white !important;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-nav .nav-link:hover {
+      background-color: #0d6efd;
+      color: white !important;
+      border-radius: 5px;
+    }
+
+    .navbar-toggler {
+      border: none;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Top Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav text-center">
+        <li class="nav-item"><a class="nav-link" href="#" onclick="showStep(0)">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="showStep(1)">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="showStep(2)">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="showStep(3)">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="showStep(4)">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="showStep(5)">Internships</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="showStep(6)">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="showStep(7)">Declaration</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Portfolio Container -->
+  <div class="container mt-4">
+    <h2 class="text-center mb-4">
+     
+    </h2>
+
+    <!-- Sections -->
+    <!-- ABOUT Section (Modified) -->
+<div id="step0" class="section active-section">
+  <center><h4 style="color: #0dfd49;margin-left: 140px;"><strong>About</strong></h4></center>
+  <div class="row align-items-center">
+    <!-- Image Left -->
+    <div class="col-md-4 text-center">
+      <img src="hi.jpg" class="img-fluid img-thumbnail mb-3"
+        style="border-radius: 12px; object-fit: cover; max-height: 240px;" />
+    </div>
+
+    <!-- Info Right -->
+  <div class="col-md-8" style="background-color: #f8f9fa; padding: 20px; border-radius: 12px;">
+  <h4 style="color: #fd490d;margin-left: 90px;"><strong>KASARAPU MOHAN REDDY</strong></h4>
+  <p>
+    <strong>Annamacharya Institution of Technology and Sciences, Tirupathi</strong>
+  </p>
+  <p style="margin-bottom: 6px;">
+    <strong>Computer Science Engineering</strong> (IoT, Cybersecurity & Blockchain)
+  </p>
+  <p style="margin-bottom: 12px; margin-left: 150px;">
+    <strong>CGPA:</strong> 8.59 &nbsp; | &nbsp; <strong>2021 – 2025</strong>
+  </p>
+</div>
+
+
+
+  </div>
+</div>
+
+
+    <div id="step1" class="section">
+     <center> <h4 style="color: #fd0d65;"><strong>EDUCATION</strong></h4></center>
+      <h6>Annamacharya Institution Of technology and Sciences,Tirupathi</h6>
+      <p><strong>Bachelor of Technology:</strong>B.Tech - Computer Science Engineering(IoT, Cybersecurity & Blockchain) CGPA:8.59</p>
+     <h6>Sri Nandi Junior College, Nandikotkur</h6>
+      <p><strong>Intermediate:</strong> MPC (Mathematics, Physics,Chemistry)  Marks: 827</p>
+      <h6>Pavani High School, Nandikotkur</h6>
+      <p><strong>School:</strong>School of Secondary Education  Marks: 9.0</p>
+
+    </div>
+
+    <div id="step2" class="section">
+      <center> <h4 style="color: #fd0d65;"><strong>SKILLS</strong></h4></center>
+      <p><strong>Programming Languages:</strong>Java, Python</p>
+      <p><strong>Web Development:</strong>HTML, CSS,JavaScript (Intermediate proficiency)</p>
+      <p><strong>SQL:</strong> Joins, AggregateFunctions,ACIDProperties,Normalization,SQLCommands,Keys,ERDiagrams.</p>
+      <p><strong>Cloud & DevOps (AWS):</strong> IAM, EC2,LambdaFunctions,RDS,VPC,S3Buckets,AutoScaling,Security Groups,Git, SDLC.</p>
+      <p><strong>IoT & Embedded Systems:</strong> RaspberryPi, Sensors, Arduinos
+     <p><strong>Tools & IDEs:</strong>GitHub, VS Code</p>
+    </div>
+
+    <div id="step3" class="section">
+     <center> <h4 style="color: #fd0d65;"><strong>RESUME</strong></h4></center>
+      <p>Click the button below to view or download my resume:</p>
+     <center>
+<a href="Kasarapu_Mohan_Reddy.pdf" class="btn btn-primary" target="_blank">📥 Download Resume</a>
+</center>
+
+    </div>
+
+    <div id="step4" class="section">
+      <center> <h4 style="color: #fd0d65;"><strong>PROJECTS</strong></h4></center>
+      <ul>
+       <h6> <li>Soil Sense Intelligent pH Crop Advisory System</li></h6>
+        <p></p>
+        <p>i. Soil Sense is an intelligent crop advisory system that analyzes soil pH to
+recommend the most suitable crops and optimal fertilizer usage.</p><p>ii. 
+It ensures balanced soil conditions by managing acidity and alkalinity, preventing
+nutrient deficiencies or toxicities.</p><p>iii. 
+Promotes sustainable agriculture with data-driven recommendations, improving
+crop yield and reducing environmental impact.</p>
+
+        <h6><li> A Three Axis CNC Plotter Machine Using Ardinuo Uno and HC05</li></h6>
+<p></p>
+        <p>i. Designed and developed a low-cost three-axis CNC plotter using Arduino UNO, stepper
+motors, and HC-05 Bluetooth module for wireless control.</p><p>ii. 
+Implemented G-code-based plotting using Inkscape to achieve high-precision drawing and
+engraving on various surfaces.</p><p>iii. 
+Built for educational and small-scale industrial use, showcasing concepts in automation, IoT
+integration, and embedded systems.</p>
+        
+      </ul>
+    </div>
+
+    <div id="step5" class="section">
+      <center> <h4 style="color: #fd0d65;"><strong>INTERNSHIPS</strong></h4></center>
+      <h6><li>AWS Devops Engineer (Rooman Technology) - Feb 25 to May 2025</li></h6>
+      <p>i. Developed, deployed, and managed a dynamic web application using AWS services
+including EC2, Lambda, and VPC for scalable compute, backend logic, and secure networking.</p><P>ii. 
+Utilized S3 buckets to store and organize incoming data, and implemented automated
+workflows to transfer and process this data into an RDS database cluster for structured
+storage.</P><P>iii. 
+Configured IAM roles and policies to enable role-based access control, ensuring security and
+protection of sensitive operations and resources.</p>
+<h6><li>AWeb Development Intern (APSSDC) - May 23 to Jul 23</li></h6>
+<P>i. Developed a fully responsive personal portfolio website as part of the internship program to
+showcase technical skills and achievements.</P>
+<P>ii. Implemented a clean, user-friendly interface using HTML, CSS, and JavaScript, ensuring
+cross-device compatibility.</P>
+<P>iii. Documented academic projects, certifications, and skills within the portfolio to highlight
+qualifications and professional growth.</P>
+    </div>
+
+    <div id="step6" class="section">
+      <center> <h4 style="color: #fd0d65;"><strong>CERTIFICATIONS</strong></h4></center>
+      <ul>
+        <li>Typing Certification</li>
+        <li>Cybersecurity Essential Certifiacte</li>
+        <li>AWS DevOps Internship Certificate</li>
+        <li>Python Programming by Infosys Springboard</li>
+         <li>Effective Speaking and Listinging Skills Certificate</li>
+        <li>Wipro Certified Java Fullstack Developer Certifiacte</li>
+       
+      </ul>
+    </div>
+
+    <div id="step7" class="section">
+      <center> <h4 style="color: #fd0d65;"><strong>DECLARATION</strong></h4></center>
+      <p>I hereby declare that the information provided is true to the best of my knowledge. I am ready to learn, grow, and contribute to the success of your organization.</p>
+    </div>
+
+    <!-- Prev / Next Buttons -->
+    <div class="text-center">
+      <button class="btn btn-outline-secondary nav-btn" onclick="navigate(-1)">⬅ Previous</button>
+      <button class="btn btn-outline-success nav-btn" onclick="navigate(1)">Next ➡</button>
+    </div>
+  </div>
+
+  
+
+  <!-- Bootstrap Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    let currentStep = 0;
+    const totalSteps = 8;
+
+    function showStep(step) {
+      document.getElementById(`step${currentStep}`).classList.remove('active-section');
+      currentStep = step;
+      document.getElementById(`step${currentStep}`).classList.add('active-section');
+    }
+
+    function navigate(direction) {
+      document.getElementById(`step${currentStep}`).classList.remove('active-section');
+      currentStep += direction;
+      if (currentStep < 0) currentStep = 0;
+      if (currentStep >= totalSteps) currentStep = totalSteps - 1;
+      document.getElementById(`step${currentStep}`).classList.add('active-section');
+    }
+  </script>
+</body>
+
+</html>
